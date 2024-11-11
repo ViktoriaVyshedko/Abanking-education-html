@@ -1,0 +1,363 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    background-color: #1E252B;
+    margin: 0;
+    background-image: url("/src/img/Illustration.png");
+    background-repeat: no-repeat;
+    background-position: right 111px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    margin-top: 26px;
+    margin-right: 105px;
+    margin-bottom: 104px;
+    margin-left: 111px;
+}
+
+.site-navigation-item a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.main-header-nav {
+    display: flex;
+}
+  
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 257px;
+    margin-top: 5;
+    margin-bottom: 5;
+    height: 38px;
+    display: flex;
+}
+
+.logo p {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.logo img{
+    margin-right: 12px;
+}
+  
+.site-navigation {
+    padding: 0;
+    margin: 0;
+    width: 431px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 48px;
+    margin-left: auto;
+}
+
+.login {
+    color: rgba(255, 255, 255, 0.55);
+    margin-right: 41px;
+}
+
+.sign-up {
+    color: #FDF5FF;
+    background-color: #FF6E30;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.hero {
+    margin-left: 111px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color:#FF6E30;
+}
+
+.hero p {
+    width: 487px;
+    margin-bottom: 60px;
+} 
+
+.hero div {
+    background: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+    border-radius: 15px;
+    width: 497.66px;
+    height: 64px;
+    padding: 1.5px;
+    margin-bottom: 110px;
+}
+
+.hero .search {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.38);
+    display: flex;
+    width: 468.56px;
+    height: 48px;
+    padding-top: 8px;
+    padding-right: 11.04px;
+    padding-bottom: 8px;
+    padding-left: 18.06px;
+    background: #283036;
+    border-radius: 15px;
+}
+
+.search p {
+    padding-left: 37.12px;
+    background-image: url("/src/img/search.svg");
+    background-repeat: no-repeat;
+    margin-right: 111px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.search a {
+    background-color: #FF6E30;
+    padding: 12px 36.12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.social-list {
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list-item {
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.popular p {
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 90px;
+}
+
+.popular {
+    width: 1224px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.popular-list {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 392px 392px 392px;
+    grid-template-rows: 294px 294px;
+    grid-column-gap: 24px;
+    grid-row-gap: 100px;
+    margin-bottom: 100px;
+}
+
+.popular-item {
+    padding: 33px;
+}
+
+.popular .chosen {
+    background: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(50px);
+
+    border-radius: 15px;
+}
+
+.div-chosen {
+    background: linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+    padding: 2px;
+    border-radius: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.popular-item .name {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.popular-item .name img {
+    margin-right: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.popular-item .name h3 {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.popular-item p {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.popular-item .buttons {
+    display: flex;
+}
+
+.popular-item .buttons .heart{
+    margin-right: 12px;
+}
+
+.popular-item button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.popular-item .buttons a {
+    margin-left: auto;
+    padding: 9px 35px;
+}
+
+.chosen .buttons a {
+    background-color: #FF6E30;
+    border-radius: 8px;
+}
+
+.chosen .heart {
+    background: rgba(40, 48, 54, 1);
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    border-radius: 8px;
+}
+
+.chosen p {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.78);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.chosen h3 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.popular-item span {
+    line-height: 27px;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.chosen span {
+    color: rgba(255, 165, 55, 1);
+}
+
+.popular .popular-item a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.popular .chosen a {
+    color: #FFFFFF;
+}
+
+.popular .load {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF6E30;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 38px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 108px;
+}
+
+.brand p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.brand {
+    width: 1059px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-right: 83px;
+    padding-bottom: 56px;
+    padding-left: 82px;
+    background: #283036;
+    border-radius: 25px;
+}
+
+.brand ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient {
+    border-radius: 25px;
+    padding: 2px;
+    background: linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%);
+    width: 1224px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    backdrop-filter: blur(50px);
+}
+
